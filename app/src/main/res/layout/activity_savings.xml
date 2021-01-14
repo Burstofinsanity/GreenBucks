@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/savings"
+        android:layout_height="match_parent"
+        tools:context=".savings">
+
+    <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="44dp"
+            tools:srcCompat="@mipmap/bg3"
+            android:src="@mipmap/bg3" />
+
+    <ImageView
+            android:id="@+id/character"
+            android:layout_width="650dp"
+            android:layout_height="629dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:src="@mipmap/character"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@mipmap/character" />
+
+    <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/nedbank_logo"
+            app:srcCompat="@mipmap/nedbank_logo" />
+
+    <TextView
+            android:id="@+id/speach"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nedbanksansbold"
+            android:maxWidth="700dp"
+            android:text="“If you were on the Greenbacks programme, swiping for that amount would have meant XXX points for you and XXX donated to an affinity of your choice at no extra cost to you!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@id/character"
+            app:layout_constraintTop_toTopOf="@id/character" />
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="546dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/nedbanksansblack"
+            android:text="You could have… "
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:typeface="normal"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@id/character"
+            app:layout_constraintStart_toStartOf="@id/character"
+            tools:layout_editor_absoluteX="111dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

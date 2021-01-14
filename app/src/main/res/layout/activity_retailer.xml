@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".retailer">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bg"
+            android:src="@mipmap/bg4"
+            tools:srcCompat="@mipmap/bg4"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/background"/>
+
+    <ImageView
+            android:id="@+id/larry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:contentDescription="@string/nedbank"
+            android:src="@mipmap/nedbank_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/nedbank_logo" />
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nedbanksansblack"
+            android:text="@string/select_your_retailer"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="270dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:contentDescription="@string/edgars"
+                    app:srcCompat="@mipmap/edgars" />
+
+            <RadioButton
+                    android:id="@+id/retVal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:button="@drawable/radiobutton"
+                    android:padding="10dp"
+                    android:text="@string/r150"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r250" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r350" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:contentDescription="@string/kauai"
+                    app:srcCompat="@mipmap/kauai" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r150" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r250" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r350" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:contentDescription="@string/et"
+                    android:paddingTop="25dp"
+                    android:paddingBottom="25dp"
+                    app:srcCompat="@mipmap/jet" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r150" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r250" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r350" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:contentDescription="@string/emirates"
+                    app:srcCompat="@mipmap/emirates" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r150" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r250" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r350" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:contentDescription="@string/avis"
+                    app:srcCompat="@mipmap/avis" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r150" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textAlignment="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/r250" />
+
+            <RadioButton
+
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:button="@drawable/radiobutton"
+                    android:id="@+id/retVal14"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="25dp"
+
+                    android:textAlignment="center"
+                    android:layout_marginEnd="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r350" />
+        </LinearLayout>
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

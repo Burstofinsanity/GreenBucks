@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".coach">
+
+    <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:srcCompat="@mipmap/bg3"
+            android:src="@mipmap/bg3" />
+
+    <ImageView
+            android:id="@+id/nedbank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:contentDescription="@string/nedbank"
+            android:src="@mipmap/nedbank_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/nedbank_logo" />
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/meetlarry"
+            android:fontFamily="@font/nedbanksansblack"
+            android:text="@string/meet_your_coach_larry"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/larry"
+            android:layout_width="300dp"
+            android:layout_height="650dp"
+            android:contentDescription="@string/larry"
+            android:src="@mipmap/larry"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@mipmap/larry" />
+
+    <ImageView
+            android:id="@+id/speach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/speach"
+            android:src="@mipmap/larryspeach"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.69"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.32"
+            app:srcCompat="@mipmap/larryspeach" />
+</androidx.constraintlayout.widget.ConstraintLayout>

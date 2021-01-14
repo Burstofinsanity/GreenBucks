@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "754506713546",
+    "firebase_url": "https://nedbankgreenbucks-50241.firebaseio.com",
+    "project_id": "nedbankgreenbucks-50241",
+    "storage_bucket": "nedbankgreenbucks-50241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754506713546:android:abd7792e06e1d1f4",
+        "android_client_info": {
+          "package_name": "com.bornintelligence.nedbankgreenbucks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754506713546-io6bi397kid5l1o3aq8io5udr832tolv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bornintelligence.nedbankgreenbucks",
+            "certificate_hash": "a638c15ddbbe27424b1a8cf5b8957fef5b378986"
+          }
+        },
+        {
+          "client_id": "754506713546-4id3hjp8nelsub67q1lvbv0m0i9h25qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUigmqt9dFHRpnbiqGC2-_ZUe8_hGIT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754506713546-4id3hjp8nelsub67q1lvbv0m0i9h25qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

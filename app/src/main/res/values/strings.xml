@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Nedbank GreenBucks</string>
+    <string name="background">background</string>
+    <string name="see_money_differently">See Money Differently</string>
+    <string name="swipe_to_start_your_journey">Swipe to start your journey</string>
+    <string name="get_with_the_new_greenbacks">Get with the new Greenbacks, a money management
+        programme that happens to reward you. That’s different
+    </string>
+    <string name="welcome">Welcome</string>
+    <string name="following_question">Answer the following Question:</string>
+    <string name="thankyou">thankyou</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="r250">R250</string>
+    <string name="r150">R150</string>
+    <string name="r350">R350</string>
+    <string name="kauai">kauai</string>
+    <string name="avis">avis</string>
+    <string name="emirates">emirates</string>
+    <string name="et">et</string>
+    <string name="edgars">edgars</string>
+    <string name="select_your_retailer">Select your retailer</string>
+    <string name="nedbank">nedbank</string>
+    <string name="meetlarry">meetlarry</string>
+    <string name="meet_your_coach_larry">Meet your coach - Larry</string>
+    <string name="larry">larry</string>
+    <string name="speach">speach</string>
+    <string name="logo">logo</string>
+    <string name="greenbacks">greenbacks</string>
+</resources>
